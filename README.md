@@ -1,3 +1,9 @@
+This is will be a blog that I will create with the help of a linkedIn learning course that dives into how to create a blog with react and other full-stack elements to implement within this project.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
