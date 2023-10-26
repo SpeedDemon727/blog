@@ -4,9 +4,16 @@
  */
 
 const AboutPage = () => {
-    return (
-        <h1>This is the About Page!</h1>
-    );
+    return(
+        <>
+            <h1>Hey Welcome to my Blog</h1>
+    
+            <p>
+                Hi I am a sophmore computer science student at Iowa State University and this is my blog.
+                I like to play tennis, spikeball, and basketball.
+            </p>
+        </>
+    )
 }
 
 export default AboutPage;
