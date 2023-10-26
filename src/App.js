@@ -5,6 +5,7 @@ import AboutPage from './pages/aboutPage';
 import ArticlePage from './pages/articlePage';
 import ArticleListPage from './pages/articlesListPage';
 import HomePage from './pages/homePage';
+import NotFoundPage from './pages/NotFoundPage';
 
 
 
@@ -19,6 +20,7 @@ function App() {
               <Route path ="/about" element = {<AboutPage />} />
               <Route path ="/articles" element = {<ArticleListPage />} />
               <Route path ="/articles/:articleID" element = {<ArticlePage />} /> {/* The artcleID is known as a url parameter */}
+              <Route path ="*" element = {<NotFoundPage />} />
             </Routes>
         </div>
       </div>

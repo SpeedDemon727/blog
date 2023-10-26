@@ -6,8 +6,7 @@
 const AboutPage = () => {
     return(
         <>
-            <h1>Hey Welcome to my Blog</h1>
-    
+            <h1>About Me</h1>
             <p>
                 Hi I am a sophmore computer science student at Iowa State University and this is my blog.
                 I like to play tennis, spikeball, and basketball.

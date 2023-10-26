@@ -5,7 +5,7 @@
 const HomePage = () => {
     return(
     <>
-        <h1>About me</h1>
+        <h1>Hi Welcome to my Blog</h1>
 
         <p>
             Hi I am a sophmore computer science student at Iowa State University and this is my blog.
