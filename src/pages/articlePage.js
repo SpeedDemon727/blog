@@ -4,11 +4,17 @@
  */
 
 import { useParams } from "react-router-dom";
+import NotFoundPage from './pages/NotFoundPage';
 import articles from "./ArticleContent";
+
 
 const ArticlePage = () => {
     const { articleID } = useParams();
     const article = articles.find(article => article.name === articleID)
+
+    if (!article) {
+        return <NotFoundPage />
+    };
 
     return (
         <>
